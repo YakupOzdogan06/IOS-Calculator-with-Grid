@@ -63,26 +63,41 @@
   background-color: #f1a33c;
 }
 
-.content5,
-.content6,
-.content7,
-.content9,
-.content10,
-.content11,
-.content13,
-.content14,
-.content15,
-.content17,
-.content18,
-.content19 {
+.gri:hover {
+  background-color: #525252;
+  cursor: pointer;
+}
+
+.siyah {
   background-color: #333;
+}
+.siyah:hover {
+  background-color: #191919;
+  cursor: pointer;
+}
+
+.sarı:hover {
+  background-color: #78511e;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .calculator {
+    position: fixed;
+    right: 0;
+  }
+}
+@media (max-width: 840px) {
+  .calculator {
+    height: 840px;
+    width: 400px;
+  }
 }
 
 @media (max-width: 500px) {
   .calculator {
+    width: 500px;
     position: fixed;
-    top: 0;
     left: 0;
-    right: 0;
   }
 }
